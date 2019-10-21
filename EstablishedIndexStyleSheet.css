@@ -80,6 +80,10 @@ body{font-family: 'Source Sans Pro', sans-serif;
 	margin-bottom: 15px;
 	 
 }
+.logoLi{
+	display: none;
+	
+}
 
 .servicesDescription {
 	text-align: left;
@@ -304,6 +308,9 @@ body{font-family: 'Source Sans Pro', sans-serif;
 		width: 40%;
 		padding-bottom: 20px;
 		
+	}
+	.logoLi{
+		display: inline;
 	}
 	.services-background-Mobile{
 		background-attachment: fixed;

@@ -65,7 +65,6 @@ body{font-family: 'Source Sans Pro', sans-serif;
 .mobileBackground {
 	background-image: url('images/mobileBackground.jpeg');
 	background-repeat: no-repeat;
-    background-attachment: fixed;
     background-size:cover;
     background-position: center;
 }
@@ -100,10 +99,9 @@ body{font-family: 'Source Sans Pro', sans-serif;
 .services-background-Mobile {
 	background-image: url('images/rickyShaving.jpg');
 	background-repeat: no-repeat;
-    background-attachment:fixed;
     background-size:cover;
     background-position: center;
-	height: 40vh;
+	height: 80vh;
 }
 .footer-distributed{
 	background-color: #333333;
@@ -307,6 +305,28 @@ body{font-family: 'Source Sans Pro', sans-serif;
 		padding-bottom: 20px;
 		
 	}
+	.services-background-Mobile{
+		background-attachment: fixed;
+		height: 40vh;
+	}
+	.mobileBackground{
+		background-attachment: fixed;
+	}
+	.navMobileLogo{
+		display: none;
+	}
+	.deskNav{
+		text-align: center;
+		margin:auto;
+	}
+	.deskNav li{
+		padding: 25px;
+		font-size: 1.2rem;
+	}
+	.navbar-brand-custom{
+		margin-right: 0px;
+	}
+	
 		}
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */

@@ -4,25 +4,29 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- TemplateBeginEditable name="doctitle" -->
 <title>index</title>
-<link href="css/bootstrap-4.0.0.css" rel="stylesheet" type="text/css">
-<link href="EstablishedIndexStyleSheet.css" rel="stylesheet" type="text/css">
+<!-- TemplateEndEditable -->
+<link href="../css/bootstrap-4.0.0.css" rel="stylesheet" type="text/css">
+<link href="../EstablishedIndexStyleSheet.css" rel="stylesheet" type="text/css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
 </head>
-<body style="padding-top: 56px;background-color: black;">
+<body style="padding-top: 56px;background-color: none;">
 <nav class="navbar fixed-top navbar-expand-lg navbar-dark navbar-custom-style"> 
-	<a class="navbar-brand-custom navMobileLogo" href="#"><img class="nav-logo" alt="Established Barbershop" src="images/logoClear.png"></a>
+	<a class="navbar-brand-custom navMobileLogo" href="#"><img class="nav-logo" alt="Established Barbershop" src="../images/logoClear.png"></a>
 	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1" aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
 	<div class="collapse navbar-collapse" id="navbarSupportedContent1">
 		<ul class="navbar-nav mr-auto deskNav" style="letter-spacing: 4px;">
 			<li class="nav-item active">
-				<a class="nav-link" href="index.html">HOME <span class="sr-only">(current)</span></a>
+				<a class="nav-link" href="../index.html">HOME <span class="sr-only">(current)</span></a>
 			</li>
 			<li class="nav-item">
-				<a class="nav-link" href="index.html#servicesSection">SERVICES</a>
+				<a class="nav-link" href="../index.html#servicesSection">SERVICES</a>
 			</li>
-			<li class="logoLi"><a class="navbar-brand-custom" href="#"><img class="nav-logo" alt="Established Barbershop" src="images/logoClear.png"></a></li>
+			<li class="logoLi"><a class="navbar-brand-custom" href="#"><img class="nav-logo" alt="Established Barbershop" src="../images/logoClear.png"></a></li>
 			<li class="nav-item">
 				<a class="nav-link" href="Barbers.html">BARBERS</a>
 			</li><li class="nav-item">
@@ -35,7 +39,7 @@
 <div class="SectionContent mobileBackground backgroundTint">
 	<div class="splashSection">
 	<div> 
-		<img class="EstablishedLogo" alt="Logo" src="images/logoClear.png">
+		<img class="EstablishedLogo" alt="Logo" src="../images/logoClear.png">
 		<h3 style="letter-spacing: 5px;padding-top:8px;color:#e6e6e6">BARBERSHOP</h3>
 	</div>
 	<div class="homepageInfo">
@@ -48,36 +52,47 @@
 </div>
 <div id="servicesSection">
 	<h1 class="header">SERVICES</h1>
+	<p style="text-align: left;">Services description goes here, Describe how established barbershop provides premium haircuts. Each haircut is made custom to your headshape/ hair type. Shop does not use models or posters , so be sure to know what you want. If you are unsure, ask for advice from our friendly staff
+	Tone: formal and friendly</p>
 	<div class="servicesDescription">
-		<div class="services"><h3 class="servicesHeader">THE CUT</h3>
-			<p style="letter-spacing: .15rem;">Gentleman or lady. Inspired by you, for you. </p>
-		<h4>$20</h4></div>
-		<div class="services"><h3 class="servicesHeader">KIDS CUT</h3>
-		<p style="letter-spacing: .15rem;">12 and under. Boy or girl. Never rushed. </p>
-		<h4>$15</h4></div>
-		<div class="services"><h3 class="servicesHeader">THREADING</h3>
-		<p style="letter-spacing: .15rem;">Brows only. Additonal threading will be charge accordingly </p>
-		<h4>$10</h4></div>
-		<div class="services"><h3 class="servicesHeader">CLASSIC TOWEL SHAVE</h3>
-		<p style="letter-spacing: .15rem;">Relax and enjoy the traditional barbershop experience of a a classic warm towel shave with a straight razor. </p>
-		<h4>$20</h4></div>
+		<table>
   
- 
+  <tr>
+    <td>PREMIUM CUT</td>
+    <td>$20</td>
+  </tr>
+   <tr>
+    <td>GENTLEMAN'S SHAVE</td>
+    <td>$20</td>
+  </tr>
+  <tr>
+    <td>YOUTH 12 & UNDER</td>
+    <td>$15</td>
+  </tr>
+  <tr>
+    <td>BROW THREADING</td>
+    <td>$10</td>
+    
+  </tr>
+	
+		</table>
 	</div>
 	
+</div>
+<div class="services-background-Mobile backgroundTint">
 </div>
 <footer class="footer-distributed">
 
 			<div class="footer-left">
-			<img class="footerLogo" alt="Logo" src="images/logoClear.png">
+			<img class="footerLogo" alt="Logo" src="../images/logoClear.png">
 
 
 				<p class="footer-links">
-					<a href="index.html">Home</a>
+					<a href="#">Home</a>
 					·
 					<a href="#">Services</a>
 					·
-					<a href="Barbers.html">Barbers</a>
+					<a href="#">Barbers</a>
 					·
 					<a href="#">Legacy</a>
 					
@@ -115,8 +130,8 @@
 			</div>
 
 		</footer>
-<script src="js/jquery-3.2.1.min.js"></script>
-<script src="js/popper.min.js"></script>
-<script src="js/bootstrap-4.0.0.js"></script>
+<script src="../js/jquery-3.2.1.min.js"></script>
+<script src="../js/popper.min.js"></script>
+<script src="../js/bootstrap-4.0.0.js"></script>
 </body>
 </html>

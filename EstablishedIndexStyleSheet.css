@@ -13,8 +13,8 @@ body{font-family: 'Source Sans Pro', sans-serif;
     white-space: nowrap;
 }
 .nav-logo{
-	width:100px;
-	padding: 5px;
+	width:120px;
+padding: 0px; 21
 	
 }
 .navbar-toggler:focus, .navbar-toggler:active {
@@ -78,26 +78,40 @@ body{font-family: 'Source Sans Pro', sans-serif;
 	letter-spacing: 3px;
 	text-align: center;
 	margin-bottom: 15px;
+	font-weight: bold;
 	 
 }
 .logoLi{
 	display: none;
 	
 }
+table {
+  font-family: Source sans pro;
+  border-collapse: collapse;
+  width: 100%;
+  font-size: 1.2rem;
+}
+
+td, th {
+  
+  text-align: left;
+  padding: 20px;
+  letter-spacing: 2px;
+}
 
 .servicesDescription {
-	text-align: left;
+	text-align: center;
 	color: black;
 	padding:5%;
-	background-color:rgba(235,235,235);
+	background-color:rgba(245,245,245);
 	margin-top:40px;
 	
 }
 
-.servicesSection {
+#servicesSection {
 	padding: 15%;
 	height: 150%;
-	
+	background-color: white;
 }
 
 .services-background-Mobile {
@@ -356,4 +370,13 @@ body{font-family: 'Source Sans Pro', sans-serif;
 	}
 	}
 		
+}
+
+.servicesHeader {
+	letter-spacing: 5px;
+
+}
+
+.services {
+	margin-bottom: 50px;
 }

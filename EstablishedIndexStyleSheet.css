@@ -14,8 +14,14 @@ body{font-family: 'Source Sans Pro', sans-serif;
 }
 .nav-logo{
 	width:120px;
-padding: 0px; 21
+padding: 0px;
 	
+}
+.card{
+	border: none;
+	margin-bottom: 50px;
+	margin-top: 50px;
+	background-color: rgba(245,245,245,1.00)
 }
 .navbar-toggler:focus, .navbar-toggler:active {
     outline: none;
@@ -23,14 +29,11 @@ padding: 0px; 21
 	border: none;
   }
 
-@charset "utf-8";
-/* CSS Document */
-
 
 .splashSection {
 	padding:15%;
 	background-color:rgba(56, 49, 49, 0.54);
-	margin-top:40px;
+	margin-top:15vh;
 }
 
 .EstablishedLogo {
@@ -42,6 +45,7 @@ padding: 0px; 21
 	text-align: center;
 	color: #E3E3E3;
 	padding-top:20px;
+	font-size: 18px;
 }
 .homepageInfo p{
 	margin-top:-7px;
@@ -54,7 +58,7 @@ padding: 0px; 21
 
 .SectionContent {
 	text-align: center;
-    height: 80vh;
+    height: 95vh;
 	padding: 5%;
 }
 
@@ -98,14 +102,27 @@ td, th {
   padding: 20px;
   letter-spacing: 2px;
 }
+.gallery {
+text-align: center;
+}
 
+
+@media (max-width: 450px) {
+
+}
+
+@media (max-width: 400px) {
+.btn.filter {
+padding-left: 1.1rem;
+padding-right: 1.1rem;
+}
+}
 .servicesDescription {
 	text-align: center;
 	color: black;
 	padding:5%;
 	background-color:rgba(245,245,245);
 	margin-top:40px;
-	
 }
 
 #servicesSection {
@@ -264,13 +281,55 @@ td, th {
 	margin-right: 3px;
 	margin-bottom: 5px;
 }
+#Barberpage {
+	padding-left: 15%;
+	padding-right:15%;
+	padding-top:100px;
+	height: 150%;
+	background-color: white;
+}#Legacypage {
+	padding-left: 15%;
+	padding-right:15%;
+	padding-top:100px;
+	height: 150%;
+	background-color: white;
+}
+.BarberProfiles {
+	width: 100%;
+	border: medium black;
+	border-radius: 50%;
+}
 
+.barberSection {
+	padding: 15px;
+	margin: 25px;
+	background-color:rgba(245,245,245);
+
+}
+
+.BarbersTiles {
+	text-align: center;
+	color: black;
+	padding:5%;
+	margin-top:40px;
+}
+.LegacyTiles {
+	text-align: center;
+	color: black;
+	padding:5%;
+	margin-top:40px;
+}
 /* If you don't want the footer to be responsive, remove these media queries */
-
-@media (max-width: 880px) {
-
+	@media (max-width: 576px) {
 	.footer-distributed{
 		font: bold 14px sans-serif;
+	}
+	.navbar-custom-style{
+		position: fixed;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		z-index: 1030;
 	}
 	.footer-distributed .footer-left,
 	.footer-distributed .footer-center,
@@ -289,8 +348,37 @@ td, th {
 	.footer-distributed .footer-center i{
 		margin-left: 0;
 	}
+	#Barberpage{
+		padding-left:3%;
+		padding-right: 3%;
+		padding-top:56px;
+	}	
+	#Legacypage{
+		padding-left:3%;
+		padding-right: 3%;
+		padding-top:56px;
+	}
+	#servicesSection{
+		padding-left:3%;
+		padding-right: 3%;
+		padding-top:56px;	
+	}
+		.servicesDescription{
+		margin:5%;
+		}
+	.header{
+		font-size: 30px;
+	}
+	.footer-distributed .footer-center p {
+    width: 80%;
+    display: inline-block;
+    color: #ffffff;
+    vertical-align: middle;
+    margin: 0;
+	}
+
 }
-	 @media only screen and (min-width: 600px){
+@media only screen and (min-width: 768px){
 		.splashSection{
 			padding:5%;
 		}
@@ -305,9 +393,22 @@ td, th {
 		.header{
 			margin-bottom:50px;
 		}
-		
+		.navMobileLogo{
+		display: none;
+		}
+		.deskNav{
+			text-align: center;
+			margin:auto;
+		}
+		.deskNav li{
+			padding: 25px;
+			font-size: 1.2rem;
+		}
+		.navbar-brand-custom{
+			margin-right: 0px;
+		}
 	}	
-	@media only screen and (min-width: 768px){
+	@media only screen and (min-width: 992px){
 		
 		.splashSection{
 			margin-top: 0px;
@@ -315,9 +416,10 @@ td, th {
 		.EstablishedLogo{
 			width: 55%;
 		}
-			/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
-	
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+	@media only screen and (min-width: 1200px) {
 	.EstablishedLogo{
 		width: 40%;
 		padding-bottom: 20px;
@@ -333,25 +435,6 @@ td, th {
 	.mobileBackground{
 		background-attachment: fixed;
 	}
-	.navMobileLogo{
-		display: none;
-	}
-	.deskNav{
-		text-align: center;
-		margin:auto;
-	}
-	.deskNav li{
-		padding: 25px;
-		font-size: 1.2rem;
-	}
-	.navbar-brand-custom{
-		margin-right: 0px;
-	}
-	
-		}
-
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
 		.EstablishedLogo{
 			width:40%;
 			padding-bottom: 0px;
@@ -364,13 +447,12 @@ td, th {
 			width: 80%;
 			margin: auto;
 		}
-	.servicesSection{
-		padding-top:5%;
-		padding-bottom: 5%;
-	}
+		.servicesSection{
+			padding-top:5%;
+			padding-bottom: 5%;
+		}
 	}
 		
-}
 
 .servicesHeader {
 	letter-spacing: 5px;
@@ -379,4 +461,64 @@ td, th {
 
 .services {
 	margin-bottom: 50px;
+}
+
+
+
+
+
+.headerWhite {
+	font-size: 30px;
+	color:white;
+}
+
+.homepageMoto {
+	padding:15px;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+
+
+.row {
+  display: inline-flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+  margin: 13%;
+  text-align: center;
+	
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  flex: 25%;
+  max-width: 25%;
+
+	
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+
+.haircutsPics {
+	padding: 5%;
 }
